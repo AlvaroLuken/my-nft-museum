@@ -6,8 +6,8 @@ import styles from '../../styles/image.module.css';
 const JaguarSoulImage = () => {
   return (
     <Layout title="Jaguar&apos;s Soul">
-      <NextLink color="inherit" textDecor='none' href="/pieces/CoyoteSoul">
-      <button>Back</button>
+      <NextLink color="inherit" textDecor='none' href="/pieces/JaguarSoul">
+        <button style={{position: 'absolute', padding: "8px", fontFamily:'monospace', cursor: 'pointer'}}>Back</button>
       </NextLink>     
       <Flex justifyContent='space-around'>
         <Center>
@@ -17,7 +17,6 @@ const JaguarSoulImage = () => {
         </Center>
       </Flex>
     </Layout>
-    
   )
 }
 

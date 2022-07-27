@@ -7,12 +7,12 @@ const CoyoteSoulImage = () => {
   return (
     <Layout title="Coyote&apos;s Soul">
       <NextLink color="inherit" textDecor='none' href="/pieces/CoyoteSoul">
-      <button>Back</button>
+      <button style={{position: 'absolute', padding: "8px", fontFamily:'monospace', cursor: 'pointer'}}>Back</button>
       </NextLink>     
       <Flex justifyContent='space-around'>
         <Center>
         <div className={styles.imageContainer}>
-          <Image src="https://media.niftygateway.com/image/upload/q_auto:good,w_800/v1595942803/CarlosMarcial/Ai_Serpiente_previz_pfg8dk.webp" className={styles.image} />
+          <Image src="https://media.niftygateway.com/image/upload/q_auto:good,w_800/v1595942801/CarlosMarcial/Ai_Coyote_previz_cwgzys.webp" className={styles.image} />
         </div>
         </Center>
       </Flex>

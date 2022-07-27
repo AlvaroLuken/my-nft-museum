@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import products from '../products.json';
-import { Image, Link, Text } from '@chakra-ui/react';
+import { Image, Text } from '@chakra-ui/react';
 import NextLink from 'next/link';
 import Layout from '../lib/article';
 
@@ -27,7 +27,7 @@ export default function Home() {
               <li key={title} className={styles.card}>
                 <Image maxWidth="100%" src={image} alt={title}/>
                 <h3>{title}</h3>
-                <h4>By: {artist}</h4>
+                <h4 style={{textDecoration: 'none'}}>By: {artist}</h4>
                 <Text>
                   {description}       
                 </Text>

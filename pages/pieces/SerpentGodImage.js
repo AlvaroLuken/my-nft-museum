@@ -7,7 +7,7 @@ const SerpentGodImage = () => {
   return (
     <Layout title="Serpent-God">
       <NextLink color="inherit" textDecor='none' href="/pieces/SerpentGod">
-      <button>Back</button>
+        <button style={{position: 'absolute', padding: "8px", fontFamily:'monospace', cursor: 'pointer'}}>Back</button>
       </NextLink>     
       <Flex justifyContent='space-around'>
         <Center>

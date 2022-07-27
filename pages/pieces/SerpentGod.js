@@ -4,13 +4,13 @@ import Layout from '../../lib/article';
 
 const SerpentGod = () => {
   return (
-    <Layout title="Serpent God">
+    <Layout title="Coyote's Soul">
       <NextLink color="inherit" textDecor='none' href="/">
-      <button>Back</button>
-
+        <button style={{padding: "8px", fontFamily:'monospace', cursor: 'pointer'}}>Back</button>
       </NextLink>     
       <Flex mt={12} direction='row' justifyContent='space-around'>
-        <Text style={{lineHeight: '20px'}}p={8} w='50%'>My <b>very</b> first NFT. I encountered this serpent while on a random Twitter scroll. 
+        <Text style={{lineHeight: '32px', fontSize: "24px"}}p={8} w='50%'>
+        My <b>very</b> first NFT. I encountered this serpent while on a random Twitter scroll. 
         The deep red background and the snake textured with recognizable Aztec art immediately caught my attention. 
         I had no concept of NFTs then.
         <br>
@@ -31,11 +31,21 @@ const SerpentGod = () => {
         </br>
         <b>The serpent is considered a sacred animal by the Aztecs. Textured using AI trained with ancient Aztec art.</b>
         </Text>
-        <Center>
+        <div style={{display: 'flex', flexDirection: 'column'}}>
           <NextLink href="/pieces/SerpentGodImage">
-            <Image cursor='pointer' mt={8} pb={16} boxSize='420px' src="https://media.niftygateway.com/image/upload/q_auto:good,w_800/v1595942803/CarlosMarcial/Ai_Serpiente_previz_pfg8dk.webp" />
+            <Image style={{marginRight: "1.6rem"}} cursor='pointer' mt={8} pb={16} boxSize='720px' src="https://media.niftygateway.com/image/upload/q_auto:good,w_800/v1595942803/CarlosMarcial/Ai_Serpiente_previz_pfg8dk.webp" />
           </NextLink>
-        </Center>
+          <Center>
+            <div style={{display: 'inline-block'}}>
+            <h2 style={{display: 'inline-block', fontSize: '28px'}}>Artist:&nbsp;</h2><h2 color='teal' style={{display: 'inline-block', fontSize: '28px'}} ><Link href="https://twitter.com/carlosmarcialt" target="_blank" color='teal' textDecoration='none'>Carlos Marcial</Link></h2>
+            <Center>
+              <NextLink href="/pieces/SerpentGodImage">
+                <Text cursor='pointer' style={{marginTop: '4px',  color: 'gray'}}>(Click on image to expand...)</Text>
+              </NextLink>
+            </Center>
+            </div>
+          </Center>
+        </div>
       </Flex>
     </Layout>
     
