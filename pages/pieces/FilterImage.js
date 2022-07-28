@@ -3,20 +3,19 @@ import BackButton2 from '../../components/BackButton2';
 import Layout from '../../lib/article';
 import styles from '../../styles/image.module.css';
 
-const CoyoteSoulImage = () => {
+const FilterImage = () => {
   return (
-    <Layout title="Coyote&apos;s Soul">
-      <BackButton2 linkPath='/pieces/CoyoteSoul' />  
+    <Layout title="Filter">
+      <BackButton2 linkPath='/pieces/Filter/' />  
       <Flex justifyContent='space-around'>
         <Center>
         <div className={styles.imageContainer}>
-          <Image src="https://media.niftygateway.com/image/upload/q_auto:good,w_800/v1595942801/CarlosMarcial/Ai_Coyote_previz_cwgzys.webp" className={styles.image} />
+          <Image src="https://lh3.googleusercontent.com/DR9GadyY-T5gyVXwbqUqLPucugMAh00nhN5jxJcI0YvU5u1x_YXtuHEBDEvXpKOB-zU7P5mk9HFXnnhy0xUFisXrq_KsyK-fNFCI=w600" className={styles.image} />
         </div>
         </Center>
       </Flex>
     </Layout>
-    
   )
 }
 
-export default CoyoteSoulImage;
+export default FilterImage;

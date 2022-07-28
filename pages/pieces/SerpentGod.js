@@ -1,13 +1,13 @@
-import { Button, Link, Box, Flex, Image, Text, Container, Center } from '@chakra-ui/react';
+import { Flex, Image, Text, Container, Center } from '@chakra-ui/react';
 import NextLink from 'next/link';
 import Layout from '../../lib/article';
+import CarlosMarcial from '../../components/CarlosMarcial';
+import BackButton from '../../components/BackButton';
 
 const SerpentGod = () => {
   return (
-    <Layout title="Coyote's Soul">
-      <NextLink color="inherit" textDecor='none' href="/">
-        <button style={{padding: "8px", fontFamily:'monospace', cursor: 'pointer'}}>Back</button>
-      </NextLink>     
+    <Layout title="Serpent-God">
+      <BackButton linkPath='/' />
       <Flex mt={12} direction='row' justifyContent='space-around'>
         <Text style={{lineHeight: '32px', fontSize: "24px"}}p={8} w='50%'>
         My <b>very</b> first NFT. I encountered this serpent while on a random Twitter scroll. 
@@ -31,21 +31,7 @@ const SerpentGod = () => {
         </br>
         <b>The serpent is considered a sacred animal by the Aztecs. Textured using AI trained with ancient Aztec art.</b>
         </Text>
-        <div style={{display: 'flex', flexDirection: 'column'}}>
-          <NextLink href="/pieces/SerpentGodImage">
-            <Image style={{marginRight: "1.6rem"}} cursor='pointer' mt={8} pb={16} boxSize='720px' src="https://media.niftygateway.com/image/upload/q_auto:good,w_800/v1595942803/CarlosMarcial/Ai_Serpiente_previz_pfg8dk.webp" />
-          </NextLink>
-          <Center>
-            <div style={{display: 'inline-block'}}>
-            <h2 style={{display: 'inline-block', fontSize: '28px'}}>Artist:&nbsp;</h2><h2 color='teal' style={{display: 'inline-block', fontSize: '28px'}} ><Link href="https://twitter.com/carlosmarcialt" target="_blank" color='teal' textDecoration='none'>Carlos Marcial</Link></h2>
-            <Center>
-              <NextLink href="/pieces/SerpentGodImage">
-                <Text cursor='pointer' style={{marginTop: '4px',  color: 'gray'}}>(Click on image to expand...)</Text>
-              </NextLink>
-            </Center>
-            </div>
-          </Center>
-        </div>
+        <CarlosMarcial linkPath={'/pieces/SerpentGodImage'} imagePath={'https://media.niftygateway.com/image/upload/q_auto:good,w_800/v1595942803/CarlosMarcial/Ai_Serpiente_previz_pfg8dk.webp'} />
       </Flex>
     </Layout>
     

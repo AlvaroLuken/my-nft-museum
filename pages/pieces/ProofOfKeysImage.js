@@ -3,14 +3,14 @@ import BackButton2 from '../../components/BackButton2';
 import Layout from '../../lib/article';
 import styles from '../../styles/image.module.css';
 
-const SerpentGodImage = () => {
+const ProofOfKeysImage = () => {
   return (
-    <Layout title="Serpent-God">
-      <BackButton2 linkPath='/pieces/SerpentGod/' />  
+    <Layout title="Proof of Keys">
+      <BackButton2 linkPath='/pieces/ProofOfKeys/' />  
       <Flex justifyContent='space-around'>
         <Center>
           <div className={styles.imageContainer}>
-            <Image src="https://media.niftygateway.com/image/upload/q_auto:good,w_800/v1595942803/CarlosMarcial/Ai_Serpiente_previz_pfg8dk.webp" className={styles.image} />
+            <Image src="http://cdn.shopify.com/s/files/1/0826/9235/products/IMG_61992_1024x.jpg?v=1650350198" className={styles.image} />
           </div>
         </Center>
       </Flex>
@@ -19,4 +19,4 @@ const SerpentGodImage = () => {
   )
 }
 
-export default SerpentGodImage;
+export default ProofOfKeysImage;

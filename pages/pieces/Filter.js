@@ -1,12 +1,11 @@
 import { Flex, Text } from '@chakra-ui/react';
-import NextLink from 'next/link';
 import Layout from '../../lib/article';
-import CarlosMarcial from '../../components/CarlosMarcial';
+import Josie from '../../components/Josie';
 import BackButton from '../../components/BackButton';
 
-const CoyoteSoul = () => {
+const Filter = () => {
   return (
-    <Layout title="Coyote's Soul">
+    <Layout title="Filter">
       <BackButton linkPath='/' />
       <Flex mt={12} direction='row' justifyContent='space-around'>
         <Text style={{lineHeight: '32px', fontSize: "24px"}}p={8} w='50%'>
@@ -18,11 +17,11 @@ const CoyoteSoul = () => {
         <br></br><br></br>
         <b>The coyote is considered a sacred animal by the Otomis. Textured using AI trained with Otomi traditional art.</b>
         </Text>
-        <CarlosMarcial linkPath={'/pieces/CoyoteSoulImage'} imagePath={'https://media.niftygateway.com/image/upload/q_auto:good,w_800/v1595942801/CarlosMarcial/Ai_Coyote_previz_cwgzys.webp'} />
+        <Josie linkPath={'/pieces/FilterImage/'} imagePath={'https://lh3.googleusercontent.com/DR9GadyY-T5gyVXwbqUqLPucugMAh00nhN5jxJcI0YvU5u1x_YXtuHEBDEvXpKOB-zU7P5mk9HFXnnhy0xUFisXrq_KsyK-fNFCI=w600'} />
       </Flex>
     </Layout>
     
   )
 }
 
-export default CoyoteSoul;
+export default Filter;
