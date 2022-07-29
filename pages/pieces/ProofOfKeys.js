@@ -1,4 +1,4 @@
-import { Flex, Image, Text, Container, Center } from '@chakra-ui/react';
+import { Flex, Text } from '@chakra-ui/react';
 import NextLink from 'next/link';
 import Layout from '../../lib/article';
 import CryptoGraffiti from '../../components/cryptograffiti';
