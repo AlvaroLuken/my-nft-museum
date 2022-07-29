@@ -1,4 +1,4 @@
-import { Box, Flex, Center, Button, Divider, Text, Heading, Container } from '@chakra-ui/react';
+import { Box, Flex, Divider, Text, Heading, Container } from '@chakra-ui/react';
 import NextLink from 'next/link';
 import BackButton from '../components/BackButton';
 
@@ -15,7 +15,7 @@ function NotFound() {
       </Box>
       <Box my={6} align="center">
         <NextLink href="/">
-          <BackButton text={'Return to Home'}/>
+          <BackButton linkPath={'/'}/>
         </NextLink>
       </Box>
     </Container>
