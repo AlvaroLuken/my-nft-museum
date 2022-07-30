@@ -12,7 +12,7 @@ function CarlosMarcial({ linkPath, imagePath }) {
         <h2 style={{display: 'inline-block', fontSize: '28px'}}>Artist:&nbsp;</h2><h2 color='teal' style={{display: 'inline-block', fontSize: '28px'}} ><Link href="https://twitter.com/carlosmarcialt" target="_blank" color='teal' textDecoration='none'>Carlos Marcial</Link></h2>
         <Center>
           <NextLink href={linkPath}>
-            <Text cursor='pointer' style={{marginTop: '4px',  color: 'gray'}}>(Click on image to expand...)</Text>
+            <Text cursor='pointer' style={{marginTop: '0',  color: 'gray'}}>(Click on image to expand...)</Text>
           </NextLink>
         </Center>
         </div>
