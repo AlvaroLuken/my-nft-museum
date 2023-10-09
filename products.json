@@ -70,5 +70,29 @@
     "description": "cryptograffiti is the banksy of bitcoin art.",
     "siteLink": "/pieces/GraduallyThenSuddenly/",
     "image": "./images/Gradually_Then_Suddenly.png"
+  },
+  {
+    "title": "Genesis Address (Signed Print)",
+    "artist": "cryptograffiti",
+    "artistLink": "https://twitter.com/cryptograffiti",
+    "description": "cryptograffiti is the banksy of bitcoin art.",
+    "siteLink": "/pieces/GenesisAddress/",
+    "image": "./images/GenesisAddress.jpeg"
+  },
+  {
+    "title": "The Hodler (Signed Print)",
+    "artist": "crayonsmell",
+    "artistLink": "https://twitter.com/crayonsmell",
+    "description": "Matt Habel goes by crayonsmell and is a Bitcoin artist.",
+    "siteLink": "/pieces/TheHodler/",
+    "image": "./images/TheHodler.png"
+  },
+  {
+    "title": "Bitcoin Mandala (Edition 14/21)",
+    "artist": "crayonsmell",
+    "artistLink": "https://twitter.com/crayonsmell",
+    "description": "Matt Habel goes by crayonsmell and is a Bitcoin artist.",
+    "siteLink": "/pieces/BitcoinMandala/",
+    "image": "./images/BitcoinMandala.jpeg"
   }
 ]
